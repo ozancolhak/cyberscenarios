@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siber Güvenlik Simülasyonları: Görevini Seç</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Simulations: Choose Your Mission</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 
@@ -18,6 +23,8 @@
             --shadow-light: rgba(0, 230, 255, 0.2);
             --shadow-strong: rgba(0, 230, 255, 0.4);
             --title-glow-color: rgba(0, 230, 255, 0.4); /* Parlaklık daha da düşürüldü */
+
+            --title-glow-color: rgba(0, 230, 255, 0.4);
         }
 
         body {
@@ -74,6 +81,10 @@
             z-index: 1;
             letter-spacing: 1px;
             animation: textGlow 4s ease-in-out infinite alternate; /* Animasyon yavaşlatıldı */
+            text-shadow: 0 0 5px var(--title-glow-color), 0 0 10px var(--title-glow-color);
+            z-index: 1;
+            letter-spacing: 1px;
+            animation: textGlow 4s ease-in-out infinite alternate;
         }
 
         /* Title glow animation - consistent with homepage */
@@ -185,6 +196,7 @@
 </head>
 <body>
     <div class="grid-bg"></div>
+ 
     <h1>Siber Güvenlik Simülasyonları: Görevini Seç</h1>
 
     <div class="kriz-grid">
@@ -242,6 +254,63 @@
             <p class="role">📢 Bulut Güvenliği Uzmanı</p>
             <p class="description">Hassas veriler ele geçirildi. İtibarı kurtar ve kamuoyunu bilgilendir!</p>
             <a href="cyberscenarios6/index.html" class="start-button">Başla</a>
+    <h1>Cybersecurity Simulations: Choose Your Mission</h1>
+
+    <div class="kriz-grid">
+        <div class="kriz-card">
+            <h2>IoT Crisis</h2>
+            <p class="role">👨‍💻 Cybersecurity Engineer</p>
+            <p class="description">Rogue smart devices are paralyzing your network. Respond quickly!</p>
+            <a href="cyberscenarios-1/index.html" class="start-button">Start</a>
+        </div>
+
+        <div class="kriz-card">
+            <h2>Ransomware Attack</h2>
+            <p class="role">🕵️ SOC Analyst</p>
+            <p class="description">Company data is encrypted! Recover data and stop the attacker.</p>
+            <a href="cyberscenarios-2/index.html" class="start-button">Start</a>
+        </div>
+
+        <div class="kriz-card">
+            <h2>Insider Threat</h2>
+            <p class="role">👤 Cybersecurity Director</p>
+            <p class="description">Sensitive information is being leaked internally. Hunt down the suspect!</p>
+            <a href="cyberscenarios-3/index.html" class="start-button">Start</a>
+        </div>
+
+        <div class="kriz-card">
+            <h2>Phishing Attack</h2>
+            <p class="role">🎯 Cyber Intelligence Chief</p>
+            <p class="description">Employees fell victim to a phishing attack. Minimize the damage!</p>
+            <a href="cyberscenarios-4/index.html" class="start-button">Start</a>
+        </div>
+
+        <div class="kriz-card">
+            <h2>Supply Chain Attack</h2>
+            <p class="role">🧩 Cyber Threat Intelligence (CTI) Specialist</p>
+            <p class="description">You've been attacked through a trusted partner. Secure the chain!</p>
+            <a href="cyberscenarios-5/index.html" class="start-button">Start</a>
+        </div>
+
+        <div class="kriz-card">
+            <h2>Large-Scale DDoS Attack</h2>
+            <p class="role">🌐 Network Security Expert</p>
+            <p class="description">Sites are crashing under heavy traffic. Defend your network and restore service!</p>
+            <a href="cyberscenarios-6/index.html" class="start-button">Start</a>
+        </div>
+
+        <div class="kriz-card">
+            <h2>Zero-Day Exploit</h2>
+            <p class="role">💾 SOC Analyst</p>
+            <p class="description">An unknown vulnerability is being exploited. Quickly develop a patch!</p>
+            <a href="cyberscenarios-7/index.html" class="start-button">Start</a>
+        </div>
+
+        <div class="kriz-card">
+            <h2>Cloud Security Breach</h2>
+            <p class="role">📢 Cloud Security Specialist</p>
+            <p class="description">Sensitive data has been compromised. Salvage reputation and inform the public!</p>
+            <a href="cyberscenarios-8/index.html" class="start-button">Start</a>
         </div>
     </div>
 </body>
